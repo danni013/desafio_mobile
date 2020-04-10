@@ -28,10 +28,9 @@ export default function App() {
       likes: `${likes}`
     });
 
-    const project = response.data;
+    const repository = response.data;
 
-    setProjects([...projects, project])
-    // Implement "Like Repository" functionality
+    setRepositories([...repository, repository])
   }
 
   return (
